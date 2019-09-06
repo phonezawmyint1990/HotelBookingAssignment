@@ -72,6 +72,7 @@ class SearchViewController: UIViewController , UITextFieldDelegate{
         //navigateToNextViewController()
         let controller = SheetViewController(controller: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: STORYBOARD_ID_FILTERS), sizes: [.fixed(self.view.frame.height * 3/4) , .fixed(self.view.frame.height * 2/4), .fixed(self.view.frame.height * 1/4), .fullScreen])
         controller.topCornersRadius = 15
+        controller.handleColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.3)
         self.present(controller, animated: false, completion: nil)
     }
     

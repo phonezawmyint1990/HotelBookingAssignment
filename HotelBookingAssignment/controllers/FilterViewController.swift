@@ -21,27 +21,27 @@ class FilterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        btnNone.layer.cornerRadius = 5
+        btnNone.layer.cornerRadius = 10
         btnNone.layer.borderWidth = 1
         btnNone.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
-        btnOne.layer.cornerRadius = 5
+        btnOne.layer.cornerRadius = 10
         btnOne.layer.borderWidth = 1
         btnOne.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
-        btnTwo.layer.cornerRadius = 5
+        btnTwo.layer.cornerRadius = 10
         btnTwo.layer.borderWidth = 1
         btnTwo.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
-        btnThree.layer.cornerRadius = 5
+        btnThree.layer.cornerRadius = 10
         btnThree.layer.borderWidth = 1
         btnThree.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
-        btnFour.layer.cornerRadius = 5
+        btnFour.layer.cornerRadius = 10
         btnFour.layer.borderWidth = 1
         btnFour.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
-        btnFive.layer.cornerRadius = 5
+        btnFive.layer.cornerRadius = 10
         btnFive.layer.borderWidth = 1
         btnFive.layer.borderColor = #colorLiteral(red: 0.8999999762, green: 0.8999999762, blue: 0.8999999762, alpha: 1)
         
