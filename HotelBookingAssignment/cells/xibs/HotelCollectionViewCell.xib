@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HotelCollectionViewCell" customModule="HotelBookingAssignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="237"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="237"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97U-mV-lSS">
+                        <rect key="frame" x="0.0" y="0.0" width="246" height="237"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_hotel" translatesAutoresizingMaskIntoConstraints="NO" id="7nc-Uo-QmV">
+                                <rect key="frame" x="5" y="5" width="236" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="MAm-PF-I3w"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="C3a-Xu-yDe">
+                                <rect key="frame" x="5" y="165" width="236" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Tulip Hotel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-8F-m1n">
+                                        <rect key="frame" x="0.0" y="0.0" width="236" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coxbazar, Chittagong" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnM-zQ-pHC">
+                                        <rect key="frame" x="0.0" y="27.5" width="236" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eyU-O0-AKw"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_star" translatesAutoresizingMaskIntoConstraints="NO" id="msC-TE-o3N">
+                                <rect key="frame" x="10" y="130" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="msC-TE-o3N" secondAttribute="height" multiplier="1:1" id="WPd-wA-yU0"/>
+                                    <constraint firstAttribute="height" constant="20" id="dWY-l1-3Ax"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.3 (21 ratings)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2S-jB-EpG">
+                                <rect key="frame" x="35" y="132" width="92" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASn-mC-BPp">
+                                <rect key="frame" x="166" y="10" width="65" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$89/day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-oQ-XX6">
+                                        <rect key="frame" x="7" y="4.5" width="51" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="ButtonColor"/>
+                                <constraints>
+                                    <constraint firstItem="VtH-oQ-XX6" firstAttribute="centerY" secondItem="ASn-mC-BPp" secondAttribute="centerY" id="0Mt-Rk-qGI"/>
+                                    <constraint firstItem="VtH-oQ-XX6" firstAttribute="centerX" secondItem="ASn-mC-BPp" secondAttribute="centerX" id="aai-jw-dcj"/>
+                                    <constraint firstAttribute="width" constant="65" id="biO-UE-NMo"/>
+                                    <constraint firstAttribute="height" constant="25" id="mip-wr-qPZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ASn-mC-BPp" firstAttribute="trailing" secondItem="7nc-Uo-QmV" secondAttribute="trailing" constant="-10" id="0WN-1Q-Plk"/>
+                            <constraint firstItem="7nc-Uo-QmV" firstAttribute="top" secondItem="97U-mV-lSS" secondAttribute="top" constant="5" id="4Rc-W4-l7V"/>
+                            <constraint firstItem="h2S-jB-EpG" firstAttribute="leading" secondItem="msC-TE-o3N" secondAttribute="trailing" constant="5" id="Cvr-X6-PTj"/>
+                            <constraint firstAttribute="trailing" secondItem="7nc-Uo-QmV" secondAttribute="trailing" constant="5" id="DS9-3I-gAs"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="C3a-Xu-yDe" secondAttribute="bottom" constant="10" id="FJY-RF-lpp"/>
+                            <constraint firstItem="7nc-Uo-QmV" firstAttribute="leading" secondItem="97U-mV-lSS" secondAttribute="leading" constant="5" id="Prl-xH-m5H"/>
+                            <constraint firstItem="C3a-Xu-yDe" firstAttribute="top" secondItem="7nc-Uo-QmV" secondAttribute="bottom" constant="10" id="Th6-dI-kjE"/>
+                            <constraint firstItem="h2S-jB-EpG" firstAttribute="centerY" secondItem="msC-TE-o3N" secondAttribute="centerY" id="UdE-V7-45m"/>
+                            <constraint firstItem="msC-TE-o3N" firstAttribute="bottom" secondItem="7nc-Uo-QmV" secondAttribute="bottom" constant="-5" id="aFn-mc-Dx3"/>
+                            <constraint firstItem="msC-TE-o3N" firstAttribute="leading" secondItem="7nc-Uo-QmV" secondAttribute="leading" constant="5" id="fOM-bg-80f"/>
+                            <constraint firstItem="ASn-mC-BPp" firstAttribute="top" secondItem="7nc-Uo-QmV" secondAttribute="top" constant="5" id="kjf-Ld-aHN"/>
+                            <constraint firstAttribute="trailing" secondItem="C3a-Xu-yDe" secondAttribute="trailing" constant="5" id="o3w-PL-hYR"/>
+                            <constraint firstItem="C3a-Xu-yDe" firstAttribute="leading" secondItem="97U-mV-lSS" secondAttribute="leading" constant="5" id="ta3-3Z-bEI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="97U-mV-lSS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5ZU-vW-xPC"/>
+                <constraint firstAttribute="bottom" secondItem="97U-mV-lSS" secondAttribute="bottom" id="C9e-a6-Fba"/>
+                <constraint firstAttribute="trailing" secondItem="97U-mV-lSS" secondAttribute="trailing" id="Ckr-Er-ZOI"/>
+                <constraint firstItem="97U-mV-lSS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zAl-GZ-vYT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="246" height="237"/>
+            <connections>
+                <outlet property="ivHotel" destination="7nc-Uo-QmV" id="GSu-az-SBF"/>
+                <outlet property="lblHotelAddress" destination="FnM-zQ-pHC" id="PtR-vj-W7p"/>
+                <outlet property="lblHotelName" destination="B2z-8F-m1n" id="3jh-Nk-AFa"/>
+                <outlet property="lblHotelPrice" destination="VtH-oQ-XX6" id="UgD-gK-acR"/>
+            </connections>
+            <point key="canvasLocation" x="234.78260869565219" y="215.29017857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_star" width="50" height="50"/>
+        <image name="img_hotel" width="259" height="194"/>
+        <namedColor name="ButtonColor">
+            <color red="0.56499999761581421" green="0.13300000131130219" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
