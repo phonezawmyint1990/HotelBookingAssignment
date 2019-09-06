@@ -114,7 +114,6 @@
 				FB0CBFC0231CFCD800A17619 /* storyboards */,
 				FB0CBFAE231CFCB000A17619 /* AppDelegate.swift */,
 				FB0CBFB5231CFCB100A17619 /* Assets.xcassets */,
-				FB0CBFB7231CFCB100A17619 /* LaunchScreen.storyboard */,
 				FB0CBFBA231CFCB100A17619 /* Info.plist */,
 			);
 			path = HotelBookingAssignment;
@@ -123,6 +122,7 @@
 		FB0CBFC0231CFCD800A17619 /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				FB0CBFB7231CFCB100A17619 /* LaunchScreen.storyboard */,
 				FB0CBFB2231CFCB000A17619 /* Main.storyboard */,
 			);
 			path = storyboards;
